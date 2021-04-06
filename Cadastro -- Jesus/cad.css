@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabecalho {
+    padding-top: 20px;
+    background: #161b22;
+    width: 100%;
+    height: 70px;
+    border-bottom: 20px orangered;
+}
+
+.caixa {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.laranja {
+color: orangered;
+}
+
+.cabecalho b {
+    margin-top: 8px;
+    color: white;
+    float: left;
+    font-size: 30px;
+  }
+
+  .cabecalho nav {
+    float: right;
+  }
+
+  ul {
+    display: inline block;
+    list-style: none;
+  }
+
+  ul li {
+    color: white;
+    display: inline;
+    margin-left: 25px;
+    font-size: 15px;
+  }
+
+ .pag-cadastro {
+   background-color: #ecf0f1;
+    width: 100%;
+    height: 919px;
+    margin-top: -265px;
+ }
+
+.caixa-cad {
+  max-width: 1500px;
+  height: 67%;
+  margin: 265px 231px;
+  display: flex;
+  padding-top: 150px;
+}
+
+.caixa-cad img {
+    padding-left: 370px;
+}
+
+.input-padrão {
+  width: 550px;
+  height: 30px;
+}
+
+.btn-green {
+  color: white;
+  background-color: green;
+  margin: 20px 0 50px 0;
+  border: 0;
+  padding: 10px 20px;
+
+  border-radius: 5px;
+  float: left;
+  cursor: pointer;
+}
